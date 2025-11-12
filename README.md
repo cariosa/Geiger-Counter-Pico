@@ -5,9 +5,9 @@ An open-source radiation monitoring project using a **Raspberry Pi Pico W**, **D
 
 ---
 
-## 🔌 Hardware
+## Hardware
 
-### 🧩 Components Used
+### Components Used
 
 | Component | Description | Notes / Links |
 |------------|-------------|----------------|
@@ -19,7 +19,7 @@ An open-source radiation monitoring project using a **Raspberry Pi Pico W**, **D
 | **3D Printed Body** | Custom enclosure for the project | Image: [`/media/geiger-counter-body-image.jpeg`](./media/geiger-counter-body-image.jpeg)<br>STL Files: [`body`](./media/geiger-counter-body.stl), [`lid`](./media/geiger-counter-body-lid.stl) |
 | **Jumper Wires** | For all internal connections | — |
 
-### 🧰 Component Images
+### Component Images
 
 ![Geiger Counter Components](./media/Geiger-Counter-components-disassembled.jpg)
 
@@ -37,7 +37,7 @@ The Geiger counter enclosure was designed and printed to house all components se
 
 ---
 
-### 🧠 Raspberry Pi Pico W Pinout
+### Raspberry Pi Pico W Pinout
 
 ![Raspberry Pi Pico W Pinout](./media/pico-w-pinout.png)  
 Source: [https://picow.pinout.xyz/](https://picow.pinout.xyz/)
@@ -57,11 +57,11 @@ Source: [https://picow.pinout.xyz/](https://picow.pinout.xyz/)
 
 ---
 
-## 🧠 Overview
+## Overview
 
 This project reads radiation counts from a **Geiger sensor**, displays live readings on a **0.96″ SSD1306 OLED**, and sends them to the **Blynk IoT Cloud** for remote monitoring via Wi-Fi.
 
-## 🧩 Installation Procedure
+## Installation Procedure
 
 ### 1. Install Arduino IDE
 
@@ -100,7 +100,7 @@ Search for **pico** and install
 
 ---
 
-## ⚙️ Upload & Run
+## Upload & Run
 
 Before uploading, make sure your Raspberry Pi Pico W is connected via USB and that you have configured your Wi-Fi and Blynk credentials inside the code.
 
@@ -119,7 +119,7 @@ char pass[] = "YourPassword";
 
 Once uploaded, the Pico W will automatically connect to Wi-Fi and begin sending live data to your Blynk dashboard.
 
-## ⚡ Operation
+## Operation
 
 After rebooting, the Geiger counter begins operating immediately.
 
@@ -144,13 +144,13 @@ uSv/h: 0.15
 
 The OLED refreshes approximately every 3 seconds with updated readings.
 
-### ⚙️ Physical Device in Operation
+### Physical Device in Operation
 
 The photo below shows the assembled Geiger counter actively running — connected to Wi-Fi, displaying real-time radiation levels on the OLED, and transmitting data to Blynk IoT.
 
 ![Geiger Counter Operating](./media/Geiger-counter-operation-image.jpg)
 
-### 📊 Blynk IoT Dashboard
+### Blynk IoT Dashboard
 
 Once connected, live radiation readings appear on your **Blynk IoT dashboard** via virtual pins:
 	- **V0** → CPM (Counts Per Minute)
@@ -160,11 +160,11 @@ You can visualize trends using Blynk’s **Graph** or **Gauge** widgets for real
   
 ![Blynk IoT Dashboard showing Geiger Counter Stats](./media/Blynk-Console-showing-IoT-geiger-counter-stats.png)
 
-### 🧠 Tip
+### Tip
 
 If your readings appear static or too low indoors, move the sensor near mildly radioactive materials (e.g., old ceramics, granite, or camping lantern mantles) to confirm that it’s responding correctly. The CPM should rise briefly during exposure.
 
-## 🪪 License & Credits
+## License & Credits
 
 This project is licensed under the MIT License
 
