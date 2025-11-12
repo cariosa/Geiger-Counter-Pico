@@ -15,7 +15,7 @@ An open-source radiation monitoring project using a **Raspberry Pi Pico W**, **D
 | **OLED Display (0.96″, SSD1306)** | I²C display for showing CPM and µSv/h | Connected via GP4 (SDA) and GP5 (SCL) |
 | **Gravity: Geiger Counter Module (SEN0463)** | Ionizing radiation detector | [DFRobot Wiki](https://wiki.dfrobot.com/SKU_SEN0463_Gravity_Geiger_Counter_Module) |
 | **Charging Controller** | TP4056 (or similar) | Handles lithium battery charging from VSYS |
-| **Salvaged Lithium Battery (Green Cell)** | Reused from an old laptop battery | Connected through the charging controller |
+| **Li-ion Battery** | — | Connected through the charging controller |
 | **3D Printed Body** | Custom enclosure for the project | Image: [`/media/geiger-counter-body-image.jpeg`](./media/geiger-counter-body-image.jpeg)<br>STL Files: [`body`](./media/geiger-counter-body.stl), [`lid`](./media/geiger-counter-body-lid.stl) |
 | **Jumper Wires** | For all internal connections | — |
 
@@ -40,7 +40,6 @@ The Geiger counter enclosure was designed and printed to house all components se
 ### 🧠 Raspberry Pi Pico W Pinout
 
 ![Raspberry Pi Pico W Pinout](./media/pico-w-pinout.png)  
-*Pinout diagram © Gadgetoid / Pinout.xyz — used under MIT License.*  
 Source: [https://picow.pinout.xyz/](https://picow.pinout.xyz/)
 
 | Component | Function | Pico W Pin | Notes |
