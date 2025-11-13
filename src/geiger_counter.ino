@@ -1,7 +1,7 @@
 // ------------------- Blynk macros (MUST come first!) -------------------
 #define BLYNK_TEMPLATE_NAME "Geiger Counter"
 #define BLYNK_TEMPLATE_ID "TMPL3RH6nZVXC"
-#define BLYNK_AUTH_TOKEN "4gc58z3mdn9Zeipz-Z4nWgSc81gBbBvm"
+#define BLYNK_AUTH_TOKEN "YOUR-AUTH-TOKEN"
 
 // ------------------- Libraries -------------------
 #include <WiFi.h>                  
