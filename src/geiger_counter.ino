@@ -12,8 +12,8 @@
 #include <DFRobot_Geiger.h>
 
 // ------------------- WiFi credentials -------------------
-char ssid[] = "Downrange";
-char pass[] = "80Whbattery&60%";
+char ssid[] = "your-wifi-ssid";
+char pass[] = "your-wifi-password";
 
 // ------------------- Hardware -------------------
 #define detect_pin 0
