@@ -1,6 +1,6 @@
 // ------------------- Blynk macros (MUST come first!) -------------------
 #define BLYNK_TEMPLATE_NAME "Geiger Counter"
-#define BLYNK_TEMPLATE_ID "TMPL3RH6nZVXC"
+#define BLYNK_TEMPLATE_ID "your-blynk-Template-id"
 #define BLYNK_AUTH_TOKEN "YOUR-AUTH-TOKEN"
 
 // ------------------- Libraries -------------------
